@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-faceswap"
+description = "Nodes:FaceSwapNode. Very basic custom node to enable face swapping in ComfyUI. (roop)"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["insightface==0.7.3", "onnx==1.14.0", "onnxruntime==1.15.0", "opencv-python==4.7.0.72", "cython"]
+
+[project.urls]
+Repository = "https://github.com/imb101/ComfyUI-FaceSwap"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-FaceSwap"
+Icon = ""
